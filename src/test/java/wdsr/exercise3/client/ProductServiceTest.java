@@ -90,6 +90,7 @@ public class ProductServiceTest extends ClientTestBase {
 		List<Product> products = Arrays.asList(new Product(null, "copper", ProductType.METAL),
 				new Product(null, "rice", ProductType.FOOD), new Product(null, "wheat", ProductType.FOOD),
 				new Product(null, "gas", ProductType.ENERGY), new Product(null, "oil", ProductType.ENERGY));
+		
 		List<Integer> resourceIds = new ArrayList<>();
 
 		// when

@@ -21,7 +21,6 @@ public class StatusChecker extends RestClientBase {
 		}
 		
 		String status = response.readEntity(String.class);
-		
 		return "OK".equals(status);
 	}
 }
